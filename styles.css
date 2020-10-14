@@ -174,3 +174,7 @@ input[type="number"] {
 .key-numeric-entry {
     grid-template-columns: repeat(2, max-content);
 }
+
+.hide {
+    display: none;
+}
