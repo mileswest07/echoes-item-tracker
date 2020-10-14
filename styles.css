@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+[hidden] {
+    display: none !important;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+a:not(.ignore-invert) {
+    filter: invert(100%);
+}
+
 :root {
     --column-space: 2em;
     --grid-cell-length: 40px;
